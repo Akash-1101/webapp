@@ -1,0 +1,19 @@
+/* src/components/ImageCard.css */
+.image-card {
+    position: relative;
+  }
+  
+  .image-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .image-card img:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-card p {
+    margin: 5px 0;
+  }
+  
